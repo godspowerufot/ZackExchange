@@ -90,7 +90,7 @@ function Footer() {
             </a>
             <a
               href="
-https://mail.google.com/ "
+https://mail.google.com/itywiz@gmail.com"
               className="icons"
             >
               <Mail />
