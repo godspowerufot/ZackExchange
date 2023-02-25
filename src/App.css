@@ -1,0 +1,545 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  user-select: none;
+}
+
+.top {
+  user-select: none;
+  background-color: rgb(249, 246, 242);
+}
+.animation {
+  height: fit-content;
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 10%;
+  overflow: hidden;
+  padding-left: 5%;
+}
+/* home styling */
+.Home-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Jost, san-serif !important;
+  width: 100%;
+  margin: 0;
+}
+
+.hometext-left {
+  font-family: Jost, sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  line-height: 52px;
+  color: #492b7c;
+}
+.HomeInnerText {
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #212121;
+  width: 65%;
+}
+
+.hero_image {
+  height: auto;
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  flex-shrink: 0;
+  min-height: 100%;
+}
+img {
+  height: "500px";
+  width: "500px";
+}
+/* Services styling */
+
+#services {
+  background: #dcdcdc;
+}
+
+.Service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  padding-left: 10%;
+
+  margin-left: 20%;
+  padding-bottom: 2%;
+}
+.Whyshould {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  padding-left: 10%;
+  flex-direction: row-reverse;
+  margin-left: 14%;
+  padding-bottom: 2%;
+}
+.cardingssections {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Services {
+  display: flex;
+  background: #dcdcdc;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+}
+.cardSection h1 {
+  font-size: 2rem;
+  font-family: Jost, sans-serif;
+  font-weight: 700;
+}
+.cardone {
+  display: flex;
+  background: #dcdcdc;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row-reverse;
+  margin-bottom: 10%;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+
+.What_we_DO {
+  font-family: Jost, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 49px;
+
+  color: #492b7c;
+  margin-left: 5%;
+}
+
+.Things_we_do_ {
+  background-color: #ccc;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 2px 5px #785589;
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 0.8em !important;
+  line-height: 1.8em;
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: fit-content;
+}
+.Things_we_do {
+  background-color: #ccc;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1em !important;
+  line-height: 1.8em;
+  width: 250px;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 350px;
+}
+.Thingss_we_do {
+  background-color: #ccc;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 40px;
+  padding-left: 4%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1em !important;
+  line-height: 1.8em;
+  width: 91%;
+  margin-top: 3%;
+  height: 250px;
+}
+
+.number {
+  font-family: Jost, sans-serif;
+  font-weight: 700;
+  font-size: 28px !important;
+  line-height: 36px;
+}
+
+/* more info */
+
+.Information {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  height: 350px;
+  padding-left: 10%;
+  margin-left: 13%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+
+  font-family: Jost, sans-serif;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(4, 6, 22),
+      rgba(39, 38, 38, 0.73)
+    ),
+    url("./images/bgcolor.png");
+  padding: 5rem 0;
+
+  border-radius: 2px;
+}
+.heros_image {
+  height: 350px;
+  width: 400px;
+}
+
+.moreInformation {
+  display: flex;
+  justify-content: center;
+  color: #dcdcdc;
+  padding-left: 20px;
+
+  flex-direction: column;
+}
+.moreInformation h1 {
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1em;
+  color: #f1f1f1;
+}
+.moreInformation p {
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1em;
+  color: #f1f1f1;
+}
+/* About-us info */
+.about {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Jost, san-serif !important;
+  width: 100%;
+  background-color: #212121;
+  margin-left: 0%;
+  padding-top: 4%;
+  padding: 60px 0;
+}
+.aboutContainer {
+  font-weight: 300;
+  font-size: 24px;
+  padding-left: 2%;
+  width: 50%;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100px;
+  padding-right: 6%;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1em;
+  color: #f1f1f1;
+  margin-bottom: 0.5em;
+}
+.Text {
+  padding-left: 4%;
+}
+.Text h1 {
+  font-weight: 300;
+  padding-left: 90px;
+  font-size: 65px;
+  text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1em;
+  color: #f1f1f1;
+  margin-bottom: 0.5em;
+}
+
+/* Footer designing */
+.Footer {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 50vh;
+  background: #302b2b;
+  color: #f1f1f1;
+  margin-top: 2%;
+}
+.fag {
+  font-size: 13px;
+
+  padding-right: 200px;
+}
+
+.icons {
+  color: #eee;
+  font-size: 0.7em;
+  padding-left: 20px;
+
+  border-radius: 50%;
+}
+.quicklinks {
+  padding-right: 13%;
+  font-size: 13px;
+}
+.new a {
+  text-decoration: none;
+  padding-left: 23px;
+  color: #dcdcdc;
+}
+h4 {
+  text-align: center;
+  font-weight: "100";
+  padding-left: 22px;
+}
+.sociaIcons {
+  width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 5%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icons:hover {
+  opacity: 0.1;
+}
+
+.divfooter {
+  margin-top: 1%;
+}
+/* responsiveness for  the homepage */
+
+@media screen and (max-width: 700px) {
+  .Home-wrapper {
+    flex-direction: column;
+    height: fit-content;
+    padding: 0 30px;
+    padding-bottom: 10%;
+  }
+  .hometext-left {
+    font-size: 28px;
+    line-height: 1.9em;
+    width: 100%;
+  }
+  .HomeInnerText {
+    font-size: 1.2em;
+  }
+
+  img {
+    padding-top: 20%;
+    width: 100%;
+    height: 400%;
+  }
+
+  .Things_we_do {
+    background-color: #ccc;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8em;
+    width: 260px;
+    margin-top: 5%;
+    margin-right: 15%;
+    height: 500px;
+  }
+
+  .Service {
+    flex-direction: column-reverse;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 15%;
+    padding-left: 0%;
+  }
+  .Services {
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+  .Thingss_we_do {
+    background-color: #ccc;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8em;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: fit-content;
+  }
+  .Information {
+    width: fit-content;
+    margin-left: 2%;
+    height: fit-content;
+    flex-direction: column-reverse;
+  }
+  .moreInformation h2 {
+    padding-top: 0%;
+    padding-right: 2%;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-family: "lato";
+  }
+
+  .about {
+    flex-direction: column-reverse;
+  }
+  .Text h1 {
+    font-weight: 600;
+    font-size: 42px;
+    text-align: left;
+    width: fit-content;
+    padding-left: 0%;
+  }
+  .aboutContainer {
+    text-align: left;
+    padding-top: 2%;
+    width: fit-content;
+  }
+  .heros_image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .quicklinks {
+    padding-top: 4%;
+    justify-self: center;
+  }
+  .Footer {
+    flex-direction: column-reverse;
+    justify-self: center;
+  }
+  .fag {
+    padding-top: 22px;
+  }
+  .divfooter {
+    margin-left: 50svw;
+  }
+  .Whyshould {
+    margin-left: 0%;
+    width: fit-content;
+    padding-left: 0%;
+    margin-bottom: 10%;
+    padding-right: 3%;
+    margin-right: 5%;
+  }
+
+  .cardingssections {
+    flex-direction: column;
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+}
+
+.divfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+/* max-width 800px */
+
+@media screen and (max-width: 1118px) {
+  .Service {
+    padding-left: 0%;
+    margin-left: 10%;
+  }
+  .Information {
+    width: fit-content;
+    margin-left: 0%;
+  }
+  .moreInformation {
+    padding: auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .Things_we_do {
+    background-color: #ccc;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8em;
+    width: 260px;
+    margin-top: 5%;
+    margin-right: 15%;
+    height: 500px;
+  }
+
+  .Service {
+    flex-direction: column-reverse;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 15%;
+    padding-left: 0%;
+  }
+  .Services {
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+  .Thingss_we_do {
+    background-color: #ccc;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8em;
+    width: 300px;
+    margin-top: 5%;
+    margin-right: 15%;
+    height: fit-content;
+  }
+  .Whyshould {
+    margin-left: 0%;
+    width: fit-content;
+    padding-left: 0%;
+    margin-bottom: 10%;
+    padding-right: 3%;
+    margin-right: 5%;
+  }
+}
