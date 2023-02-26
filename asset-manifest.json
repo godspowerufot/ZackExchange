@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ZackExchange/static/css/main.23261e38.css",
+    "main.js": "/ZackExchange/static/js/main.aaa7a9f4.js",
+    "static/media/bgcolor.png": "/ZackExchange/static/media/bgcolor.896364f1bd6ef610e9e7.png",
+    "static/media/hand.png": "/ZackExchange/static/media/hand.98655ddbffb00583af37.png",
+    "static/media/africa.avif": "/ZackExchange/static/media/africa.8b7d3e0aadb6d89620be.avif",
+    "static/media/customers.svg": "/ZackExchange/static/media/customers.15400ff560bdf56b97e944233c3c0b85.svg",
+    "index.html": "/ZackExchange/index.html",
+    "static/media/shield.svg": "/ZackExchange/static/media/shield.509aed4a8d4e369b1e8df9dcd5daf9cd.svg",
+    "main.23261e38.css.map": "/ZackExchange/static/css/main.23261e38.css.map",
+    "main.aaa7a9f4.js.map": "/ZackExchange/static/js/main.aaa7a9f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23261e38.css",
+    "static/js/main.aaa7a9f4.js"
+  ]
+}
